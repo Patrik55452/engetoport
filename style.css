@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Drobnosti/Image'S and next*/
+/*Line :div:*/
+/*Odelovaci #cara*/
+.line-image {
+  width: 1500px;
+  height: 5px;
+}
+
+/*ADIDAS BARVY*/
+
+/*NIKE ICON*/
+.nike {
+  width: 100px;
+}
+
+body {
+  background-image: url(POZADI/STREET.png);
+  background-size: cover;
+  outline: none;
+}
+
+.menu {
+  padding-top: 1px;
+  height: 50px;
+  text-align: center;
+}
+
+.iconmenu {
+  border: 10px solid rgba(255, 0, 0, 0.497);
+  border-radius: 50px;
+  width: 128px;
+}
+
+i {
+  padding: 5px;
+  color: rgb(17, 152, 38);
+}
+
+.menu a {
+  font-weight: 700;
+  padding: 10rem;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(179, 49, 227);
+  padding: 40px;
+}
+
+.menu a:hover {
+  border-radius: 30px;
+  background-color: rgba(25, 93, 152, 0.763);
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  .menu a {
+    flex-wrap: wrap;
+  }
+}
+
+.welcomeone {
+  padding-left: 2rem;
+  text-align: left;
+  margin-top: 8rem;
+}
+
+/****************/
+
+tw {
+  color: rgba(144, 139, 123, 0.929);
+}
+
+tu {
+  color: crimson;
+}
+
+te1 {
+  font-weight: 800;
+  color: blue;
+}
+
+t2 {
+  color: red;
+}
+/****************/
+
+.item-cards {
+  margin-left: 2%;
+  display: flex;
+  padding-left: 85px;
+  margin-top: 10rem;
+  text-align: center;
+  font-weight: 800;
+  color: red;
+  font-style: italic;
+}
+
+/*CARDS-PROMOTE*/
+
+.cards-promote,
+.cards-promote-2,
+.cards-promote-3 {
+  border-radius: 16px;
+  padding: 2rem;
+  border: 2px solid rgba(20, 20, 23, 0.192);
+  width: 400px;
+  height: 750px;
+}
+
+.cards-promote,
+.cards-promote-2,
+.cards-promote-3 {
+  background-color: rgba(240, 248, 255, 0.331);
+}
+
+.cards-promote:hover {
+  transform: scale(1.2);
+}
+.cards-promote-2:hover {
+  transform: scale(1.2);
+}
+.cards-promote-3:hover {
+  transform: scale(1.2);
+}
+
+/*CARDS - 1*/
+.text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  color: rgb(16, 12, 9);
+  font-weight: bold;
+}
+.uprava-1 {
+  font-size: 20px;
+  color: blueviolet;
+}
+.nabidka {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 25px;
+  color: rgb(27, 86, 188);
+  font-weight: bold;
+}
+.info {
+  font-style: italic;
+  color: rgb(17, 18, 15);
+  font-size: 20px;
+}
+.image {
+  border: 2px solid rgba(0, 0, 0, 0.439);
+  border-radius: 16px;
+  width: 250px;
+  pad: 1rem;
+}
+.image-2 {
+  border: 2px solid rgba(0, 0, 0, 0.439);
+  border-radius: 16px;
+  width: 200px;
+  height: 150px;
+  pad: 1rem;
+}
+
+.value {
+  color: rgba(206, 16, 16, 0.594);
+  font-size: 30px;
+  text-decoration: line-through;
+}
+
+.value-2 {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.605);
+  font-size: 30px;
+}
+
+.ou {
+  color: rgb(43, 210, 28);
+}
+
+/*CARDS - 2*/
+.uprava-2 {
+  font-size: 20px;
+  color: rgb(102, 21, 179);
+}
+.text-2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  color: rgb(11, 3, 9);
+  font-weight: bold;
+}
+
+.trends {
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+}
+
+.trend-image {
+  cursor: pointer;
+  border-radius: 16px;
+  width: 250px;
+  pad: 1rem;
+}
+
+.tabulle-text {
+  margin-trim: 2rem;
+  color: rgb(8, 254, 237);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*CARDS - 3*/
+.cards-promote-3 {
+  background-color: rgba(255, 235, 205, 0.148);
+}
+
+.text-3 {
+  font-size: 30px;
+}
+
+.text-3 em {
+  color: rgb(10, 9, 7);
+  font-weight: bold;
+  font-size: 70%;
+}
+
+.news {
+  color: blueviolet;
+  font-size: 20px;
+}
+
+.new {
+  list-style: none;
+  font-size: 20px;
+  color: rgb(16, 225, 26);
+}
+
+.mods {
+  border-radius: 25px;
+  border: 2px solid rgba(0, 0, 0, 0.439);
+  width: 220px;
+}
+
+.cards-3 img {
+  transform: scale(0.8);
+}
+
+.value-champ {
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.605);
+  font-size: 25px;
+}
+
+/*NOVY ZACATEK ODSTAVCE*/
+
+/*GALLERY*/
+.BH {
+  position: relative;
+  cursor: default;
+  border: 3px solid blue;
+  border-radius: 15px;
+  margin-left: 35rem;
+  width: 280px;
+  background-color: rgba(0, 0, 0, 0.415);
+  margin-top: 3rem;
+  text-align: center;
+  color: rgb(244, 244, 244);
+}
+
+.BH-2 {
+  box-shadow: inset;
+  cursor: default;
+  font-size: 25px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: 3px solid red;
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(6, 6, 6);
+}
+
+.BH-2:hover {
+  transform: scale(0.8);
+}
+/*GALLERY FOTO*/ /*GALLERY*/
+
+.gallery-foto {
+  background-color: rgba(0, 0, 0, 0.593);
+}
+
+.foto-1 {
+  margin-left: 6.5rem;
+  width: 400px;
+  height: 600px;
+}
+.foto-2 {
+  width: 400px;
+  height: 600px;
+}
+.foto-3 {
+  width: 400px;
+  height: 600px;
+}
+.foto-4 {
+  margin-left: 6.5rem;
+  width: 400px;
+  height: 600px;
+}
+
+.foto-5 {
+  width: 400px;
+  height: 600px;
+}
+
+.foto-6 {
+  width: 400px;
+  height: 600px;
+}
+
+.foto-1,
+.foto-2,
+.foto-3,
+.foto-4,
+.foto-5,
+.foto-6 {
+  border: 3px solid black;
+  border-radius: 25px;
+  display: inline-table;
+}
+
+/*NEW DIV*/
+.new-div {
+  height: 880px;
+  background-color: rgb(21, 21, 28);
+}
+.new-div h1 {
+  color: mediumspringgreen;
+  text-align: center;
+}
+.fuss {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.worldnew h4 {
+  font-size: 35px;
+  text-align: center;
+  color: aqua;
+}
+
+.worldnew fir {
+  color: red;
+}
+
+.worldnew val {
+  color: chartreuse;
+  font-size: 20px;
+}
+
+.firma {
+  margin-left: 30rem;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+.firma-2 {
+  margin-left: 30rem;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+}
+
+.firma:hover {
+  transform: scale(1.5);
+}
+
+.firma-2:hover {
+  transform: scale(1.5);
+}
+
+.money-new fir-1 {
+  font-size: 25px;
+  color: rgba(233, 158, 18, 0.867);
+}
+
+.money-new h4 {
+  border-radius: 20px;
+  margin-left: 25rem;
+  width: 600px;
+  height: 150px;
+  border: 2px solid blue;
+  background-color: rgba(218, 37, 37, 0.301);
+}
+
+.money-new h4:hover {
+  background-color: rgb(50, 8, 239);
+  transform: scale(0.8);
+}
+
+.background-about {
+  margin-left: 8rem;
+  width: 1200px;
+  background-color: rgba(0, 0, 0, 0.274);
+}
+
+.info5 {
+  cursor: default;
+  padding: 2rem 1rem;
+  font-size: 25px;
+  color: rgb(201, 21, 21);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-left: 20rem;
+}
+
+.info5 i {
+  font-weight: 900;
+  padding-left: 4rem;
+  font-size: 50px;
+}
